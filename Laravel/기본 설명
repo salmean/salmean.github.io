@@ -1,0 +1,16 @@
+- composer를 이용한 라라벨 설치
+|composer create-project --prefer-dist laravel/laravel laravel_test|
+
+- 라라벨 web 실행
+php artisn serve
+
+- boards라는 테이블을 만들어줌
+php artisan make:migration create_boards_table --create=boards
+
+- db migration 작업 (database-migrations에 입력한 소스의 funtion up() 에 입력한 소스들 처리)
+php artisan migrate
+
+- controller 만드는 방법 (app-http- controllers/models  두개의 디렉토리에 생성됨)
+php artisan make:controller BoardsController --resource --model=Board
+
+- routes-web.php에 가서 라우트 설정을 해줘야 한다.
