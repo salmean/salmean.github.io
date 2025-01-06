@@ -1,4 +1,4 @@
-- composer를 이용한 라라벨 설치
+|composer를 이용한 라라벨 설치|
 |composer create-project --prefer-dist laravel/laravel laravel_test|
 
 - 라라벨 web 실행
