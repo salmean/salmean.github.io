@@ -1,11 +1,11 @@
 * Helper laravel.com/docs/11.x/helpers 참고
 
 Controller 코드
-
+---
 //$rs = Str::after('Hello my World','my');
 $rs = Str::of('Hello my World')->after('my');
 echo "<br>결과1 : ".$rs."<br><br>"; // 결과 : World
-
+---
 //$rs = Str::before('Hello my World','my');
 $rs = Str::of('Hello my World')->before('my');
 echo "<br>결과2 : ".$rs."<br><br>"; // 결과 : Hello
